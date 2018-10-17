@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jax-ws xmlns="http://www.netbeans.org/ns/jax-ws/1">
+  <services>
+    <service name="AlumnoService">
+      <implementation-class>servicio.AlumnoService</implementation-class>
+    </service>
+    <service name="AsignacionService">
+      <implementation-class>servicio.AsignacionService</implementation-class>
+    </service>
+    <service name="AulaService">
+      <implementation-class>servicio.AulaService</implementation-class>
+    </service>
+    <service name="CatedraticoService">
+      <implementation-class>servicio.CatedraticoService</implementation-class>
+    </service>
+    <service name="CursoService">
+      <implementation-class>servicio.CursoService</implementation-class>
+    </service>
+    <service name="ExpedienteService">
+      <implementation-class>servicio.ExpedienteService</implementation-class>
+    </service>
+    <service name="ImagenService">
+      <implementation-class>servicio.ImagenService</implementation-class>
+    </service>
+  </services>
+  <clients/>
+</jax-ws>
